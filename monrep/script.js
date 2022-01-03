@@ -138,13 +138,13 @@ function validateForm(){
         envoyer.style.display='block'
         }
     }
-    if(navigator.geolocation){
+   /* if(navigator.geolocation){
         navigator.geolocation.watchPosition(function(position){
         console.log(position)},
         function(error){
             console.log(error)
         })
-    }
+    }*/
     document.cookie="name=java; max-age=${60*60*24*30*12}; path=/"
 // function visible
 function visible(){
