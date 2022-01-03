@@ -1,0 +1,401 @@
+#header{
+   
+    height: 200px;
+    box-shadow: 0px 0px red, -1em 0 .4em olive;
+    width: 100%;
+   position: relative;
+   background-color: rgb(204, 243, 243);
+   
+
+}
+.header p{
+    padding-bottom: 0;
+    float: left;
+    size: 14px;
+    color: rgb(68, 177, 6);
+    border: 1px solid;
+    box-shadow:10px 5px 5px red ;
+    border-radius: 50%;
+    /*font-family: Comis Sans MC;*/
+}
+.header .logo{
+    color: rgb(20, 40, 220);
+    
+  
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.menu_{
+    padding: 5px;
+    display: flex;
+    position: relative;
+
+}
+/* style du quatre point*/
+.three-dots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  .dot {
+    flex-shrink: 0;
+    margin: 10px 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+  }
+  .d1 {background: crimson;}
+  .d2 {background: yellow;}
+  .d3 {background: rgb(17, 4, 133);}
+  .d4 {background: rgb(219, 11, 108);}
+.menu_ .menu-2{
+    position: fixed;
+    width: 150px;
+    height: 100%;
+    background: rgb(10, 51, 2);
+
+}
+.menu_ .menu-2 p {
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+.menu_ .menu-2 ul li{
+    padding: 15px;
+    border-bottom:1px ridge rgb(0, 0, 0, 6) ;
+    border-top: 1px solid rgb(255, 255, 255, 6);
+}
+.menu_ .menu-2 ul li a{
+    color: seashell;
+    display: block;
+}
+.menu_ .menu-2 ul li a:hover{
+    color: salmon;
+    background: rgb(40, 41, 40);
+    font-size: 40px;
+}
+.fac{
+    position: static;
+}
+.menu_ .page{
+    width: 100%;
+    margin-right: 149px;
+}
+#menu-ho{
+   background-color: rgba(7, 70, 7, 0.877);
+   height: 60px;
+}
+.menu-ho ul li{
+    
+    display: inline-block;
+    padding: 10px;
+   
+}
+.menu-ho ul li a{
+    font-size:x-large ;
+    color: rgb(255, 255, 255);
+}
+.form1 form {
+    padding: 0px;
+    text-align: left;
+
+}
+ input[type="search"]{
+     font-size: 17px;
+     padding: 5px;
+
+ }   
+.menu-ho ul li a:hover{
+    color: rgb(248, 13, 4);
+    background-color: yellow;
+    font-size: 40px;
+}
+.section{
+    width: 50%;
+    border: 1px solid;
+    box-shadow:3px 3px red, -1em 0 .4em olive;
+    padding: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    /*text-decoration: underline;*/
+   
+}
+.section ul li{
+    padding-right: 15px;
+    list-style: square;
+    font-size: x-large;
+}
+.section ul li a{
+    color: rgb(13, 13, 14);
+    
+}
+.section ul li a:hover{
+    text-decoration: underline;
+    color: rgb(17, 4, 133);
+    transition: 0.9s;
+   
+}
+
+/* style de section 2*/
+.page .section2 {
+    margin: 20px;
+    font-size: 15px;
+    padding: 5px;
+}
+.page .section2 p{
+    padding: 10px;
+    color: rgb(248, 84, 43);
+    font-size: x-large;
+}
+.page .section2 .figure1{
+    float: left;
+}
+.page .section2 h1{
+    text-align: center;
+    font-size: xx-large;
+    box-shadow: 3px 3px red, -1em 0 .4em olive ;
+}
+.page .sectionarticle {
+    margin: 20px;
+    font-size: 15px;
+    padding: 5px;
+}
+.page .sectionarticle p{
+    padding: 10px;
+    color: rgb(248, 84, 43);
+    font-size: x-large;
+}
+.page .sectionarticle .figure1{
+    float: left;
+}
+/* page qui contien les cours*/
+.titre h1{
+    text-align: center;
+    font-size: xx-large;
+    
+    box-shadow:12px 12px 2px 1px rgba(0, 0, 255, .2) ;
+}
+.tabledecours h1 font {
+    color:rgb(184, 8, 8) ;
+    padding: 10px;
+   
+}
+.tabledecours .rowspan1{
+    background-color: aqua;
+}
+.tabledecours .cours{
+    background-color: coral;
+}
+/* page qui contient*/
+.formulaire{
+   
+    font-size: 1.5em;
+    
+}
+input[type="reset"]{
+    font-size: 20px;
+
+
+}
+.envoyer{
+    /*display: none;*/
+    border: 1px solid;
+    box-shadow:inset 5em 1em rgb(62, 212, 231) ;
+    text-align: center;
+}
+
+input[type="submit"]{
+    font-size: 30px;
+
+}
+.formulaire h1{
+
+    text-align: center;
+    font-size: xx-large;
+    box-shadow: 3px 3px red, -1em 0 .4em olive ;
+}
+.formulaire .qui{
+    background-color: darkturquoise;
+    padding: 20px;
+}
+.formulaire .qui table{
+    padding: 20px;
+   
+}
+.formulaire .qui table tr input[type="radio"]{
+    padding: 20px;
+}
+/* pied de la page*/
+.pied{
+    background-color: rgb(45, 46, 44);
+    text-align: center;
+    height: 200px;
+    padding: 20px;
+}
+
+.pied .footer p{
+    font-size: x-large;
+    color: azure;
+    padding: 15px;
+}
+.pied .footer a img{
+    border-radius: 50%;
+}
+/* joindre */
+.joidre{
+    border: 1px solid;
+    text-align: center;
+}
+.joidre form{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.joidre form input{
+    padding: 10px;
+   
+   
+
+ 
+}
+.joidre p{
+    color: rgb(54, 2, 2);
+    text-align: center;
+    font-size: x-large;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.joidre form{
+    padding: 25px;
+    border: 2px solid;
+    background-color: rgb(188, 190, 185);
+}
+.joidre form input[type="submit"]{
+    text-align: center;
+    background-color: rgb(3, 156, 28);
+}
+.joidre form input[type="reset"]{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(3, 156, 28);
+}
+/* iformation de site*/
+.site{
+    border: 0px solid;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.site li{
+    font-size: x-large;
+}
+.articlep{
+    margin-right: 10px;
+    padding: 20px;
+
+}
+.articlep .plus img{
+    float: left;
+}
+/* lien important*/
+.lien{
+    padding: 10px;
+    margin-right: 10px;
+    box-shadow:inset 5em 1em rgb(7, 199, 135) ;
+   /* border-right: thick double #09242e ;*/
+   width: 80%;
+}
+.lien h1{
+     box-shadow: 10px 5px 5px red ;
+     color: blue;
+
+}
+.lien ul li a{
+    padding: 17px;
+    margin: 0px;
+    color: brown;
+    font-size: 1.2em;
+    list-style-type: circle;
+}
+.lien ul li a:hover{
+    color: cornsilk;
+    background-color: chartreuse;
+    
+}
+/* pour floter right - left */
+.left {
+    float: left;
+}
+.right{
+    float: right;
+}
+.erreur{
+    color: brown;
+    padding: 20px;
+}
+#message{
+    border: 1px solid;
+    box-shadow: chartreuse;
+}
+/*fichier html qui centient les resultat des qui*/
+.resultat{
+   
+    height: 400px;
+    width: 80%;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.resultat table {
+    
+    margin-top: 20px;
+    margin-right: 50px;
+
+}
+.resultat table th{
+    background-color: rgb(221, 216, 175);
+}
+/**********************************************************************/
+.cookie-container {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    font-size: xx-large;
+    height: 200px;
+    background: #2f3640;
+    color: #f5f6fa;
+    padding: 0 32px;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+  
+    transition: 400ms;
+  }
+  
+  .cookie-container.active {
+    bottom: 0;
+  }
+  
+  .cookie-container a {
+    color: #584cfd;
+  }
+  
+  .cookie-btn {
+    background: #e84118;
+    border: 0;
+    color: #f5f6fa;
+    padding: 12px 48px;
+    font-size: 18px;
+    /*margin-bottom: 16px;*/
+    border-radius: 8px;
+    cursor: pointer;
+  }

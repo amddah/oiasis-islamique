@@ -1,0 +1,72 @@
+main{
+    width: 80%;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.page{
+    display: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-num{
+    border: 1px solid blue;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.active{
+    color: white;
+    background-color: blue;
+}
+button{
+    padding: 15px;
+    float: left;
+    margin-top: 10px;
+   margin: 5px;
+   font-size: 1em;
+   color: cornsilk;
+   background-color: rgb(20, 92, 5);
+}
+button a{
+    text-decoration: none;
+    color: cornsilk;
+}
+.menu{
+    border: 0px solid;
+    width: 60%;
+    background-color: darkgreen;
+    margin-top: 10px;
+    color: white;
+    height: 20px;
+    padding: 10px;
+}
+.menu a{
+    color: rgb(26, 20, 20);
+    text-decoration: none;
+    border: 0px solid;
+    background-color: white;
+    height: 20px;
+    padding: 10px;
+}
+.menu a:hover{
+    background-color: yellow;
+    color: red;
+}
+.Qui{
+    background-color: skyblue;
+}
