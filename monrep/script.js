@@ -1,12 +1,12 @@
 
-function blink(a){
+/*function blink(a){
     if(a.style.visibility=="visible"){
         a.style.visibility="hidden";
     }else{
         a.style.visibility="visible";
     }
 }
-setInterval('blink(vi)',400);
+setInterval('blink(vi)',400);*/
 function validate(){
     var name=document.getElementById('prenom');
     var prenom=document.getElementById('nom');
